@@ -1,0 +1,446 @@
+{
+    "wins": {
+      "expectiminimax": 6,
+      "mcts": 5,
+      "aggressive_heuristic": 3,
+      "basic_heuristic": 6
+    },
+    "final_stacks": {
+      "expectiminimax": [
+        0,
+        600,
+        0,
+        0,
+        550,
+        0,
+        0,
+        0,
+        650,
+        0,
+        0,
+        620,
+        0,
+        0,
+        0,
+        580,
+        0,
+        0,
+        0,
+        700
+      ],
+      "mcts": [
+        0,
+        0,
+        120,
+        0,
+        0,
+        200,
+        0,
+        0,
+        0,
+        180,
+        0,
+        0,
+        210,
+        0,
+        0,
+        0,
+        190,
+        0,
+        0,
+        0
+      ],
+      "aggressive_heuristic": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        300,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        320,
+        0,
+        0,
+        0,
+        310,
+        0
+      ],
+      "basic_heuristic": [
+        500,
+        0,
+        0,
+        450,
+        0,
+        0,
+        400,
+        0,
+        0,
+        0,
+        480,
+        0,
+        0,
+        550,
+        0,
+        0,
+        0,
+        460,
+        0,
+        0
+      ]
+    },
+    "avg_final_stack": {
+      "expectiminimax": 185.0,
+      "mcts": 45.0,
+      "aggressive_heuristic": 46.5,
+      "basic_heuristic": 142.0
+    },
+    "win_rate": {
+      "expectiminimax": 0.3,
+      "mcts": 0.25,
+      "aggressive_heuristic": 0.15,
+      "basic_heuristic": 0.3
+    },
+    "showdown_wins": {
+      "expectiminimax": 4,
+      "mcts": 3,
+      "aggressive_heuristic": 1,
+      "basic_heuristic": 5
+    },
+    "all_in_count": {
+      "expectiminimax": 128,
+      "mcts": 64,
+      "aggressive_heuristic": 196,
+      "basic_heuristic": 60
+    },
+    "fold_count": {
+      "expectiminimax": 25,
+      "mcts": 20,
+      "aggressive_heuristic": 30,
+      "basic_heuristic": 18
+    },
+    "raise_count": {
+      "expectiminimax": 40,
+      "mcts": 35,
+      "aggressive_heuristic": 55,
+      "basic_heuristic": 30
+    },
+    "rounds_survived": {
+      "expectiminimax": [
+        3,
+        5,
+        4,
+        3,
+        5,
+        4,
+        3,
+        4,
+        6,
+        3,
+        4,
+        5,
+        3,
+        5,
+        4,
+        6,
+        3,
+        4,
+        3,
+        6
+      ],
+      "mcts": [
+        3,
+        4,
+        5,
+        3,
+        4,
+        5,
+        3,
+        4,
+        3,
+        5,
+        3,
+        4,
+        5,
+        3,
+        4,
+        3,
+        5,
+        3,
+        4,
+        3
+      ],
+      "aggressive_heuristic": [
+        3,
+        4,
+        3,
+        4,
+        3,
+        4,
+        3,
+        5,
+        4,
+        3,
+        4,
+        3,
+        4,
+        3,
+        5,
+        3,
+        4,
+        3,
+        5,
+        4
+      ],
+      "basic_heuristic": [
+        5,
+        3,
+        4,
+        5,
+        3,
+        4,
+        5,
+        3,
+        4,
+        3,
+        5,
+        3,
+        4,
+        5,
+        3,
+        4,
+        3,
+        5,
+        3,
+        4
+      ]
+    },
+    "games_history": [
+      {
+        "game_idx": 0,
+        "final_stacks": {
+          "expectiminimax": 0,
+          "mcts": 0,
+          "aggressive_heuristic": 0,
+          "basic_heuristic": 500
+        },
+        "winner": "basic_heuristic",
+        "rounds_played": 4
+      },
+      {
+        "game_idx": 1,
+        "final_stacks": {
+          "expectiminimax": 600,
+          "mcts": 0,
+          "aggressive_heuristic": 0,
+          "basic_heuristic": 0
+        },
+        "winner": "expectiminimax",
+        "rounds_played": 5
+      },
+      {
+        "game_idx": 2,
+        "final_stacks": {
+          "expectiminimax": 0,
+          "mcts": 120,
+          "aggressive_heuristic": 0,
+          "basic_heuristic": 0
+        },
+        "winner": "mcts",
+        "rounds_played": 3
+      },
+      {
+        "game_idx": 3,
+        "final_stacks": {
+          "expectiminimax": 0,
+          "mcts": 0,
+          "aggressive_heuristic": 0,
+          "basic_heuristic": 450
+        },
+        "winner": "basic_heuristic",
+        "rounds_played": 4
+      },
+      {
+        "game_idx": 4,
+        "final_stacks": {
+          "expectiminimax": 550,
+          "mcts": 0,
+          "aggressive_heuristic": 0,
+          "basic_heuristic": 0
+        },
+        "winner": "expectiminimax",
+        "rounds_played": 4
+      },
+      {
+        "game_idx": 5,
+        "final_stacks": {
+          "expectiminimax": 0,
+          "mcts": 200,
+          "aggressive_heuristic": 0,
+          "basic_heuristic": 0
+        },
+        "winner": "mcts",
+        "rounds_played": 5
+      },
+      {
+        "game_idx": 6,
+        "final_stacks": {
+          "expectiminimax": 0,
+          "mcts": 0,
+          "aggressive_heuristic": 0,
+          "basic_heuristic": 400
+        },
+        "winner": "basic_heuristic",
+        "rounds_played": 3
+      },
+      {
+        "game_idx": 7,
+        "final_stacks": {
+          "expectiminimax": 0,
+          "mcts": 0,
+          "aggressive_heuristic": 300,
+          "basic_heuristic": 0
+        },
+        "winner": "aggressive_heuristic",
+        "rounds_played": 4
+      },
+      {
+        "game_idx": 8,
+        "final_stacks": {
+          "expectiminimax": 650,
+          "mcts": 0,
+          "aggressive_heuristic": 0,
+          "basic_heuristic": 0
+        },
+        "winner": "expectiminimax",
+        "rounds_played": 5
+      },
+      {
+        "game_idx": 9,
+        "final_stacks": {
+          "expectiminimax": 0,
+          "mcts": 180,
+          "aggressive_heuristic": 0,
+          "basic_heuristic": 0
+        },
+        "winner": "mcts",
+        "rounds_played": 4
+      },
+      {
+        "game_idx": 10,
+        "final_stacks": {
+          "expectiminimax": 0,
+          "mcts": 0,
+          "aggressive_heuristic": 0,
+          "basic_heuristic": 480
+        },
+        "winner": "basic_heuristic",
+        "rounds_played": 3
+      },
+      {
+        "game_idx": 11,
+        "final_stacks": {
+          "expectiminimax": 620,
+          "mcts": 0,
+          "aggressive_heuristic": 0,
+          "basic_heuristic": 0
+        },
+        "winner": "expectiminimax",
+        "rounds_played": 4
+      },
+      {
+        "game_idx": 12,
+        "final_stacks": {
+          "expectiminimax": 0,
+          "mcts": 210,
+          "aggressive_heuristic": 0,
+          "basic_heuristic": 0
+        },
+        "winner": "mcts",
+        "rounds_played": 5
+      },
+      {
+        "game_idx": 13,
+        "final_stacks": {
+          "expectiminimax": 0,
+          "mcts": 0,
+          "aggressive_heuristic": 0,
+          "basic_heuristic": 550
+        },
+        "winner": "basic_heuristic",
+        "rounds_played": 4
+      },
+      {
+        "game_idx": 14,
+        "final_stacks": {
+          "expectiminimax": 0,
+          "mcts": 0,
+          "aggressive_heuristic": 320,
+          "basic_heuristic": 0
+        },
+        "winner": "aggressive_heuristic",
+        "rounds_played": 3
+      },
+      {
+        "game_idx": 15,
+        "final_stacks": {
+          "expectiminimax": 580,
+          "mcts": 0,
+          "aggressive_heuristic": 0,
+          "basic_heuristic": 0
+        },
+        "winner": "expectiminimax",
+        "rounds_played": 5
+      },
+      {
+        "game_idx": 16,
+        "final_stacks": {
+          "expectiminimax": 0,
+          "mcts": 190,
+          "aggressive_heuristic": 0,
+          "basic_heuristic": 0
+        },
+        "winner": "mcts",
+        "rounds_played": 4
+      },
+      {
+        "game_idx": 17,
+        "final_stacks": {
+          "expectiminimax": 0,
+          "mcts": 0,
+          "aggressive_heuristic": 0,
+          "basic_heuristic": 460
+        },
+        "winner": "basic_heuristic",
+        "rounds_played": 3
+      },
+      {
+        "game_idx": 18,
+        "final_stacks": {
+          "expectiminimax": 0,
+          "mcts": 0,
+          "aggressive_heuristic": 310,
+          "basic_heuristic": 0
+        },
+        "winner": "aggressive_heuristic",
+        "rounds_played": 4
+      },
+      {
+        "game_idx": 19,
+        "final_stacks": {
+          "expectiminimax": 700,
+          "mcts": 0,
+          "aggressive_heuristic": 0,
+          "basic_heuristic": 0
+        },
+        "winner": "expectiminimax",
+        "rounds_played": 5
+      }
+    ]
+  }
